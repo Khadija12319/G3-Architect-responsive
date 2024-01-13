@@ -47,7 +47,7 @@ nav h3,.facts-heading{
     font-size: 64px;
     font-weight: 700;
 }
-.banner-description, .teams-content-description, .facts-description{
+.banner-description, .teams-content-description, .facts-description, .sponsors-description{
     color: #727272;
     font-size: 16px;
     font-weight: 400;
@@ -71,7 +71,7 @@ nav h3,.facts-heading{
 }
 
 /* main section css */
-main{
+main, footer{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -89,7 +89,7 @@ main{
     padding-right: 70px;
     padding-left: 70px;
 }
-.teams-content-header{
+.teams-content-header, .sponsor-title{
     color: #131313;
     font-size: 45px;
     font-weight: 700;
@@ -133,6 +133,33 @@ main{
     color:#727272;
     font-size: 20px;
     font-weight: 600;
+}
+
+.sponsors{
+    margin-top: 180px;
+}
+.sponsor-names{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+.sponsors-sec{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: #FFF4E7;
+    margin-bottom: 216px;
+}
+
+footer p{
+    color: #424242;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 39px 0;
+    
 }
 
 /* Responsive Media Queries */
